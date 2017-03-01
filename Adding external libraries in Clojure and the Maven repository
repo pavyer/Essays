@@ -1,0 +1,6 @@
+Adding external libraries in Clojure and the Maven repository
+So if you're using Leinegen and want to use an external api then you would edit the project.clj file of the leingen project and add the api as a dependency.
+Now, how Clojure pulls in the dependencies based on the project.clj file is through a Maven repository. So most/all Clojure libraries or apis sit are part of a Maven repository that your java compiler looks at to pull in the external apis. I'm talking about the java compiler because Clojure code is compiled by the java compiler.
+Also, when an internal company team is working with Clojure or Java code it's customary to set up an internal Maven repository to make the sharing and access of internal libraries easier. 
+— MAR 31, 2015 —
+
