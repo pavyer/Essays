@@ -1,0 +1,7 @@
+Continuous Integration + Continuous Deployment
+Continuous integration means that whatever code you write and push to the CI branch of your server is automatically tested and integrated into your existing code.
+Of course, this implies that you have written your unit tests and integration tests before hand and configured your CI system to run these tests.
+Continuous deployment is an extension of the idea of CI wherein, your continuous development system is automatically packaging up your entire app and pushing it onto a test server, installing the app on the test server and running the app on the test server.
+Oh and all throughout the major steps of the processes CI and CD, you should be able to receive emails or messages about how they are going.
+— MAR 31, 2015 —
+
