@@ -1,0 +1,11 @@
+Cheap branching-Git's Killer feature
+From what I know about Git the most mind blowing feature is it's branching capability.
+Turns out this is also the reason why Git has killed the previous generation of source control systems like SVN etc.
+Why is it called cheap branching?
+That's because creating a new branch in Git is cheap in terms of memory space required for setting up a new branch.
+In SVN, if you wanted to set up a new branch the entire code base had to be replicated in another folder to set up a new branch.
+So if you had a 1 Gb project in SVN and wanted to create a new branch of it you'd have to copy all of that into another folder and create a branch off that. Effectively taking up 2GB of space for nothing but just getting started with branching. And well, good luck if you wanted to setup a new branch for each feature. in the example above you would have to use up 8 Gb of hard disk space to just have the ability to create 8 feature branches.
+Which is why in SVN branching was limited to two branches 'master' and 'trunk'.
+In Git, creating a new branch is trivial. That's because the only thing that Git tracks are deltas or changes in the .git folder or the git repo, which allows Git to easily setup new branches. Hence, cheap branching. 
+— MAR 29, 2015 —
+
